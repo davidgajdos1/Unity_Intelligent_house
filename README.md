@@ -13,8 +13,9 @@ Na projekte sa podielali traja študenti Technickej univerzity v Košiciach. Ka�
 
 ## Architektúra projektu
 ### Vzužité programovacie jazyky ###
-Celý projekt je tvorený z dvoch častí :   1.) **Unity3D projekt**\
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.) **Python projekt**
+Celý projekt je tvorený z dvoch častí :\   
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **Unity3D projekt**\
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **Python projekt**
 ### Unity projekt ###
 ### Python projekt ###
 
