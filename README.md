@@ -1,2 +1,12 @@
-# Unity_Intelligent_house
-Intelligent house simulation in Unity
+# UNITY INTELLIGENT HOUSE
+## Abstract 
+
+## Abstrakt
+
+## Tvorcovia
+- Tomáš Juščík -
+- Richard Kačúr -
+- Dávid Gajdoš -
+
+## Architektúra projektu
+
