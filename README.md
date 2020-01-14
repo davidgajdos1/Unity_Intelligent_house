@@ -24,6 +24,7 @@ Celý projekt je tvorený z dvoch častí : \
   - Plugins - Obsahuje externú knižnicu pre prácu s python scriptomami v prostredí Unity3D
   - Scenes - Obsahuje scény, ktoré sa využívajú v projekte
   - Scripts - Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte
+    - AvatarController
   - Tileset - 
 ### Python projekt ###
 
