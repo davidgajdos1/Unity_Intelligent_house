@@ -31,7 +31,11 @@ Celý projekt je tvorený z dvoch častí : \
     - termostat - Script pre generovanie hodnôt v termostate
     - Weather - Tento script slúži na komunikáciu medzi projektom a WeatherApi
   - **Tileset** - 
+
 ### Python projekt ###
+- **Main.py** - *Main script, v ktorom sa volá funkcia Recording z Record.py*
+- **DialogFlow.py** - *Script, ktorý zabezpečuje odoslanie nahratého hlasového povelu, ktorý je vo formáte .avi do DialogFlow pomocou DialogFlowApi, kde sa následne vyhodnotí odpoveď agentom a je zaslaná naspať v rovnakom formáte. Po obdržaní odpovede od agenta sa hlasová správa prehraje užívateľovi*
+- **Record.py** - *Scirpt, ktorý zabezpečuje zachytenie hlasového povelu cez mikrofón. Nahrávanie je aktívne pokiaľ je stlačena klávesa P*
 
 ## Využité cloudové služby ##
 ### WeatherApi ###
