@@ -4,9 +4,9 @@
 ## Abstrakt
 
 ## Tvorcovia
-- Tomáš Juščík -
-- Richard Kačúr -
-- Dávid Gajdoš -
+- __Tomáš Juščík__ -
+- __Richard Kačúr__ -
+- __Dávid Gajdoš__ -
 
 ## Architektúra projektu
 
