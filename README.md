@@ -13,7 +13,7 @@ Na projekte sa podielali traja študenti Technickej univerzity v Košiciach. Ka�
 
 ## Architektúra projektu
 ### Vzužité programovacie jazyky ###
-Celý projekt je tvorený z dvoch častí :
+Celý projekt je tvorený z dvoch častí : \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **Unity3D projekt**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **Python projekt**
 ### Unity projekt ###
@@ -26,4 +26,10 @@ Celý projekt je tvorený z dvoch častí :
   - Scripts - Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte
   - Tileset - 
 ### Python projekt ###
+
+## Využité cloudové služby ##
+### WeatherApi ###
+### DialogFlow ###
+### FaceRecognitionApi ###
+
 
