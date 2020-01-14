@@ -17,20 +17,20 @@ Celý projekt je tvorený z dvoch častí : \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **Unity3D projekt**\
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- **Python projekt**
 ### Unity projekt ###
-- Assets\
-  - Animations - Obsahuje súbory pre základne animácie objektov.
-  - Graphics - Obasahuje 2D textury, ktoré slúžia ako grafická reprezentácia daných objektov v 2D protredí
-  - Lights - Obsahuje textúry pre svetlo v byte
-  - Plugins - Obsahuje externú knižnicu pre prácu s python scriptomami v prostredí Unity3D
-  - Scenes - Obsahuje scény, ktoré sa využívajú v projekte
-  - Scripts - Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte
+- ***Assets***
+  - **Animations** - *Obsahuje súbory pre základne animácie objektov*
+  - **Graphics** - *Obasahuje 2D textury, ktoré slúžia ako grafická reprezentácia daných objektov v 2D protredí*
+  - **Lights** - *Obsahuje textúry pre svetlo v byte*
+  - **Plugins** - *Obsahuje externú knižnicu pre prácu s python scriptomami v prostredí Unity3D*
+  - **Scenes** - *Obsahuje scény, ktoré sa využívajú v projekte*
+  - **Scripts** - *Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte*
     - AvatarController - Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore
     - DialogFlow - Tento script zabezpečuje spustenie python scriptu
     - displayWebcam - Tento script slúži na zachytávanie obrazu z web kamery a následnú implementáciu FaceRecognitionApi
     - teplomer - Script pre generovanie hodnôt v senzoroch
     - termostat - Script pre generovanie hodnôt v termostate
     - Weather - Tento script slúži na komunikáciu medzi projektom a WeatherApi
-  - Tileset - 
+  - **Tileset** - 
 ### Python projekt ###
 
 ## Využité cloudové služby ##
