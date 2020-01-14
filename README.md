@@ -25,7 +25,7 @@ Celý projekt je tvorený z dvoch častí : \
   - **Scenes** - *Obsahuje scény, ktoré sa využívajú v projekte*
   - **Scripts** - *Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte*
     - AvatarController - Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore
-    - DialogFlow - Tento script zabezpečuje spustenie python scriptu
+    - DialogFlow - Tento script zabezpečuje spustenie python scriptu (je nutné si upraviť cestu k pythonovksému scriptu Main.py)
     - displayWebcam - Tento script slúži na zachytávanie obrazu z web kamery a následnú implementáciu FaceRecognitionApi
     - teplomer - Script pre generovanie hodnôt v senzoroch
     - termostat - Script pre generovanie hodnôt v termostate
@@ -40,6 +40,9 @@ Celý projekt je tvorený z dvoch častí : \
 ## Využité cloudové služby ##
 ### WeatherApi ###
 ### DialogFlow ###
+DialogFlow je Cloudová služba, poskytovana firmou Google. Pomocou tejto služby si vieme vytvoriť agenta, ktorý pomocou intentov bude komunikovať s používateľom. 
+
+![DialogFlow](https://i.imgur.com/9DpgRju.png)
 ### FaceRecognitionApi ###
 
 
