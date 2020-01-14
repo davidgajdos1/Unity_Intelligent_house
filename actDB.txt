@@ -1,0 +1,5 @@
+admin
+AcwX994xcVTCzi2
+
+var client = new MongoClient("mongodb+srv://admin:AcwX994xcVTCzi2@act-j6w6a.azure.mongodb.net/test?retryWrites=true&w=majority");
+var database = client.GetDatabase("test");
