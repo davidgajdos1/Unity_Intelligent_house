@@ -44,12 +44,13 @@ Celý projekt je tvorený z dvoch častí : \
 ## Využité cloudové služby ##
 ### WeatherApi ###
 ### DialogFlow ###
-DialogFlow je Cloudová služba, poskytovaná firmou Google. Pomocou tejto služby si vieme vytvoriť agenta, ktorý pomocou intentov bude komunikovať s používateľom. Užívateľ nemusí vytvárať vlastné intenty na to, aby agent vedel komunikovať s používateľom. Agent je vopred natrenovaný na intenty, ktoré sa nachádzaju v Google databáze. Používateľ môže s agentom komunikovať pomocou písaného textu alebo pomocou hlasových nahrávok. Google poskytuje k tejto službe aj svoju službu na speech-to-text a text-to-speech.
+*DialogFlow* je **Cloudová služba**, poskytovaná firmou **Google**. Pomocou tejto služby si vieme vytvoriť *agenta*, ktorý pomocou intentov bude komunikovať s *užívateľom*. *Užívateľ* nemusí vytvárať vlastné intenty na to, aby agent vedel komunikovať s *užívateľom*. *Agent* je vopred natrenovaný na intenty, ktoré sa nachádzaju v **Google databáze**. *Užívateľ* môže s agentom komunikovať pomocou písaného textu alebo pomocou hlasových nahrávok. **Google** poskytuje k tejto službe aj svoju službu na *speech-to-text* a *text-to-speech*.
 
 <p align="center">
   <img src="https://i.imgur.com/9DpgRju.png">
 </p>
 
+Ukážka komunikácie medzi **agentom** a **uživateľom**:
 ```
 Užívateľ -> Agent: Ahoj.
 Agent -> Užívateľ: Môžeš sa identifikovať?
@@ -59,5 +60,5 @@ Agent -> Užívateľ: Ahoj Tomáš. Ako ti môžem pomôcť?
 
 ### FaceRecognitionApi ###
 
-***Link na video: *** (link-na-youtube)
+>Link na video: (link-na-youtube)
 
