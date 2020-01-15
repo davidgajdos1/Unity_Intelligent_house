@@ -1,5 +1,7 @@
 <h1 align="center">UNITY INTELLIGENT HOUSE</h1>
 
+*Osobný domáci asistent. Vytvorenie modelu bytu, aspoň 2+1, aspoň 2 ľudia, hlasový asistent sám rieši stav prostredia v byte a reaguje na požiadavky užívateľov.*
+
 <p align="center">
   <img src="https://i.imgur.com/7A8fKBh.png">
 </p>
