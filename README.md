@@ -44,14 +44,14 @@ DialogFlow je Cloudová služba, poskytovaná firmou Google. Pomocou tejto služ
 
 ![DialogFlow](https://i.imgur.com/9DpgRju.png)
 
-```mermaid
-sequenceDiagram
-Užívateľ ->> Agent: Ahoj.
-Agent--x Užívateľ: Môžeš sa identifikovať?
-Užívateľ--x Agent: Tu je Tomáš.
+```
+Užívateľ -> Agent: Ahoj.
+Agent -> Užívateľ: Môžeš sa identifikovať?
+Užívateľ -> Agent: Tu je Tomáš.
+Agent -> Užívateľ: Ahoj Tomáš. Ako ti môžem pomôcť?
 ```
 
 ### FaceRecognitionApi ###
 
-
+***Link na video: *** (link-na-youtube)
 
