@@ -1,5 +1,14 @@
 <h1 align="center">UNITY INTELLIGENT HOUSE</h1>
 
+## Abstract
+The point of this project was to create an intelligent house assistant in Unity3D with use of cloud services and implementation
+of vocal controlling.
+
+We have created custom tilesets, avatar, objects and devices as pixel-art textures. Player interacts with game using keyboard and communicates with agent through a microphone.
+
+Player is able to see temperatures in each room, input from webcamera, temperature outside synchronised with his current location using WeatherAPI, and communicate with virtual agent using Google DialogFlow API.
+Verification of users is provided by Azure FaceAPI.
+
 *Osobný domáci asistent. Vytvorenie modelu bytu, aspoň 2+1, aspoň 2 ľudia, hlasový asistent sám rieši stav prostredia v byte a reaguje na požiadavky užívateľov.*
 
 <p align="center">
