@@ -37,7 +37,7 @@ Celý projekt je tvorený z dvoch častí : \
   - **Plugins** - *Obsahuje externú knižnicu pre prácu s python scriptomami v prostredí Unity3D*
   - **Scenes** - *Obsahuje scény, ktoré sa využívajú v projekte*
   - **Scripts** - *Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte*
-    - **AvatarController** - *Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore*
+    - **AvatarController** - *Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore, verifikácia užívateľov*
     - **DialogFlow** - *Tento script zabezpečuje spustenie python scriptu (Je nutné nastaviť správnu cestu pre python script Main.py).*
     - **displayWebcam** - *Tento script slúži na zachytávanie obrazu z web kamery a následnú implementáciu FaceRecognitionApi*
     - **teplomer** - *Script pre nastavenie vonkajšej teploty pomocou WeatherApi*
@@ -77,6 +77,7 @@ Agent -> Užívateľ: Ahoj Tomáš. Ako ti môžem pomôcť?
 - (Microsoft Azure, subskripcia Azure for Students, 30000 volaní mesačne zdarma), endpoint https://faceappcloudy.cognitiveservices.azure.com/
 Hlavný skript sa nachádza v priečinku Assets/Scripts/displayWebcam.cs
 Služba funguje ako RESTapi, kde vstupom je fotografia a výstupom je JSON obsahujúci výstup zo služby.
+Pre správne fungovanie je nutné na disku vytvoriť priečinok C:\WebcamSnaps\, alebo nastaviť inú cestu pre ukladanie snímok z kamery.
 Verifikáciu zabezpečuje porovnanie fotografie z webkamery s vytvorenou skupinou na Azure FaceAPI, kde má každý užívateľ pridelený jednoznačný identifikátor a vracia confidence level, ako veľmi sa tvár podobá s tvárou v databáze. Pre úspešnú verifikáciu musí mať daný užívateľ confidence aspoň 0.8.
 Vzor výstupného JSONu: 
 ```C#
