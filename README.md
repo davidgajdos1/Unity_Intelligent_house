@@ -6,10 +6,6 @@
   <img src="https://i.imgur.com/7A8fKBh.png">
 </p>
 
-## Abstract 
-
-## Abstrakt
-
 ## Tvorcovia
 Na projekte sa podielali traja študenti Technickej univerzity v Košiciach. Každý z nich mal za úlohu implementovať niekoľko riešení, ktoré zabezpečujú dané funkcie projektu.
 
