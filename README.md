@@ -1,4 +1,4 @@
-# UNITY INTELLIGENT HOUSE
+# UNITY INTELLIGENT HOUSE {style=text-align:center}
 <p align="center">
   <img src="https://i.imgur.com/7A8fKBh.png">
 </p>
