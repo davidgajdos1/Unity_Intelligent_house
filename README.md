@@ -1,6 +1,5 @@
-<p align="center">
-  # UNITY INTELLIGENT HOUSE 
-</p>
+<h1 align="center">UNITY INTELLIGENT HOUSE</h1>
+
 <p align="center">
   <img src="https://i.imgur.com/7A8fKBh.png">
 </p>
