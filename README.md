@@ -24,7 +24,7 @@ Celý projekt je tvorený z dvoch častí : \
   - **Plugins** - *Obsahuje externú knižnicu pre prácu s python scriptomami v prostredí Unity3D*
   - **Scenes** - *Obsahuje scény, ktoré sa využívajú v projekte*
   - **Scripts** - *Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte*
-    - AvatarController - Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore
+    - **AvatarController** - Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore
     - DialogFlow - Tento script zabezpečuje spustenie python scriptu (je nutné si upraviť cestu k pythonovksému scriptu Main.py)
     - displayWebcam - Tento script slúži na zachytávanie obrazu z web kamery a následnú implementáciu FaceRecognitionApi
     - teplomer - Script pre generovanie hodnôt v senzoroch
