@@ -24,12 +24,12 @@ Celý projekt je tvorený z dvoch častí : \
   - **Plugins** - *Obsahuje externú knižnicu pre prácu s python scriptomami v prostredí Unity3D*
   - **Scenes** - *Obsahuje scény, ktoré sa využívajú v projekte*
   - **Scripts** - *Obsahuje všetky scripty, ktoré zabezpečujú funkcie v projekte*
-    - **AvatarController** - Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore
-    - DialogFlow - Tento script zabezpečuje spustenie python scriptu (je nutné si upraviť cestu k pythonovksému scriptu Main.py)
-    - displayWebcam - Tento script slúži na zachytávanie obrazu z web kamery a následnú implementáciu FaceRecognitionApi
-    - teplomer - Script pre generovanie hodnôt v senzoroch
-    - termostat - Script pre generovanie hodnôt v termostate
-    - Weather - Tento script slúži na komunikáciu medzi projektom a WeatherApi
+    - **AvatarController** - *Tento script obsahuje funkcie pre pohyb avatara pomocou klavesnice ako aj zabezpečuje logiku kolízií v priestore*
+    - **DialogFlow** - *Tento script zabezpečuje spustenie python scriptu * > **Note:** Je nutné nastaviť správnu cestu pre python script Main.py.
+    - **displayWebcam** - *Tento script slúži na zachytávanie obrazu z web kamery a následnú implementáciu FaceRecognitionApi*
+    - **teplomer** - *Script pre generovanie hodnôt v senzoroch*
+    - **termostat** - *Script pre generovanie hodnôt v termostate*
+    - **Weather** - *Tento script slúži na komunikáciu medzi projektom a WeatherApi*
   - **Tileset** - 
 
 ### Python projekt ###
@@ -43,6 +43,15 @@ Celý projekt je tvorený z dvoch častí : \
 DialogFlow je Cloudová služba, poskytovaná firmou Google. Pomocou tejto služby si vieme vytvoriť agenta, ktorý pomocou intentov bude komunikovať s používateľom. Užívateľ nemusí vytvárať vlastné intenty na to, aby agent vedel komunikovať s používateľom. Agent je vopred natrenovaný na intenty, ktoré sa nachádzaju v Google databáze. Používateľ môže s agentom komunikovať pomocou písaného textu alebo pomocou hlasových nahrávok. Google poskytuje k tejto službe aj svoju službu na speech-to-text a text-to-speech.
 
 ![DialogFlow](https://i.imgur.com/9DpgRju.png)
+
+```mermaid
+sequenceDiagram
+Užívateľ ->> Agent: Ahoj.
+Agent--x Užívateľ: Môžeš sa identifikovať?
+Užívateľ--x Agent: Tu je Tomáš.
+```
+
 ### FaceRecognitionApi ###
+
 
 
