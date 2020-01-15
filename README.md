@@ -1,5 +1,8 @@
 # UNITY INTELLIGENT HOUSE
-![Intelligent House](https://i.imgur.com/7A8fKBh.png)
+<p align="center">
+  <img src="https://i.imgur.com/7A8fKBh.png">
+</p>
+
 ## Abstract 
 
 ## Abstrakt
